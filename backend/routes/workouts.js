@@ -17,7 +17,7 @@ router.post("/", (req, res) => {
 });
 
 // delete a single workout
-router.post("/:id", (req, res) => {
+router.delete("/:id", (req, res) => {
 	res.json({ msg: "delete a single workout" });
 });
 
