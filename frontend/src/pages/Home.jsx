@@ -17,7 +17,7 @@ const Home = () => {
 		};
 
 		fetchWorkouts();
-	}, []);
+	}, [dispatch]);
 
 	if (!workouts) {
 		return <p>Loading...</p>;
